@@ -1,0 +1,34 @@
+.main_section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.Top_Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    top: 85px;
+    height: 40px;
+    left: 120px
+}
+
+.search {
+    input {
+        background-color: transparent;
+        border: 1px solid #FF0909;
+        height: 40px;
+        width: 285px;
+        border-radius: 5px;
+        padding: 15px;
+        cursor: pointer;
+        color: white;
+    }
+}
+
+.btn {
+    background-color: red;
+    border-radius: 5px;
+    padding: 6px 12px;
+}
